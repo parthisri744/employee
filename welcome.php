@@ -44,9 +44,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <div class="topnav">
   <a class="active" href="#home">Home</a>
   <a href="employee.php">Employee</a>
-  <a href="salary.php">Salary</a>
-  <a href="performance.php">Performance</a>
-  <a href="salaryIncrement.php">Salary Increment</a>
+  <a href="#">Salary</a>
+  <a href="#">Performance</a>
+  <a href="#">Salary Increment</a>
   <div class="topnav-right">
   <a href="passwordreset.php" >Reset Your Password</a>
  <a style="background-color:red" href="logout.php" >Sign Out</a>
